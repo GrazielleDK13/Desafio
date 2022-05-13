@@ -1,0 +1,44 @@
+
+.topo{
+
+    background-color: var(--AzulClaro);
+    max-width: 1440px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.agrupar{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.DVlogo{
+  
+   margin-left: 208px;
+}
+
+
+.logo{
+    width: 174px;
+    height: 61px;
+}
+
+.txtprincipal{
+    font-size: 22px;
+    margin-top: 24px;
+}
+.txtprincipal2{
+    font-size: 20px;
+
+}
+
+.link{
+    text-decoration: none;
+    color: var(--preto);
+    margin-left: 44px;
+}

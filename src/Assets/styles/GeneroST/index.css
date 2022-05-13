@@ -1,0 +1,95 @@
+
+.imgG2{
+    width: 90px;
+    margin-top: 13px;
+    margin-bottom: 42px;
+}
+
+.genero-N{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.inputsG{
+    width: 1024px;
+    margin: auto;
+}
+
+.generoIB{
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-g{
+    width: 400px;
+    height: 58px;
+    padding-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+}
+.input-g::placeholder{
+    font-family: 'Roboto, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4B2142;
+
+    
+}
+
+.listGenero{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 99px;
+}
+
+.tGeneros{
+
+    display: flex;
+    width: 1024px;
+    margin-top: 44px;
+    justify-content: space-between;
+
+}
+
+.generosN{
+
+    width: 161px;
+    display: flex;
+    align-items: center;
+
+}
+/* modal */
+
+.updateshow{
+
+    background-color: rgb(12, 133, 240);
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border-radius: 12px;
+    position: fixed;
+    top: 20%;
+    left: 24%;
+
+}
+
+.updatehide{
+
+    display: none;
+
+}
+
+
+.updateInput{
+
+    width: 400px;
+    height: 58px;
+    border: solid 1px #ccc;
+    border-radius: 12px;
+    
+}

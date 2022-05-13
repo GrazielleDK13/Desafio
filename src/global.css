@@ -1,0 +1,136 @@
+
+:root{
+  --laranja:   #F6511D;
+  --Azul:      #41B8D2;
+  --AzulClaro: #9BD2DE;
+  --Sinza:     #616162;
+  --Preto:     #0000;
+  --branco:    #FFFCFC;
+
+}
+
+*{
+  margin:  0;
+  padding: 0;
+
+}
+
+body {
+  margin: 0;
+  font-family: 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.titulo{
+  font-size: 29px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+}
+.img1{
+  width: 100px;
+  height: 100px;
+}
+
+.img2{
+  width: 90px;
+  height: 90,35px;
+}
+
+.IPcadastro{
+
+  width: 320px;
+  height: 58px ;
+  margin-top: 9px;
+
+}
+
+.BTeditar{
+
+  width: 125px;
+  height: 35px;
+  background-color: var(--laranja);
+  color: var(--branco);
+  border: none;
+  border-radius: 20px;
+
+}
+
+.BTeditar:hover{
+  background-color: #a13210;
+}
+
+.BTexcluir{
+
+  width: 125px;
+  height: 35px;
+  background-color: var(--Azul);
+  color: var(--preto);
+  border: none;
+  border-radius: 20px;
+
+}
+
+.BTexcluir:hover{
+  background-color: #206b7c;
+}
+
+.botao{
+
+  width: 180px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 35px;
+  background-color: var(--laranja);
+  color: var(--branco);
+  border: none;
+}
+
+.botao:hover{
+
+  background-color: rgb(134, 45, 3);
+  color: var(--branco);
+
+}
+
+.tituloP2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 15px;
+  font-size: 29px;
+}
+
+.botaoS{
+
+  width: 180px;
+  height: 58px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--laranja);
+  color: var(--branco);
+  border: none;
+}
+
+.botaoS:hover{
+
+  background-color: rgb(134, 45, 3);
+  color: var(--branco);
+
+}
+
+
+
+

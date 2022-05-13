@@ -1,0 +1,77 @@
+
+.cadastroCL{
+    display: flex;
+    flex-direction: column;
+}
+
+.TCadastro{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    font-size: 29px;
+    margin-bottom: 26px;
+}
+
+.loginflex{
+
+    width: 1024px;
+    margin: auto;
+
+}
+
+.DVcadastro{
+
+    width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.DVBTcadastro{
+
+    width: 1024px;
+}
+
+
+.listClientes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 99px;
+}
+
+.clientes{
+    display: flex;
+    width: 1024px;
+    margin-top: 44px;
+    justify-content: space-around;
+}
+
+.clientN{
+    width: 114px;
+    display: flex;
+    align-items: center;
+    
+}
+.clientE{
+
+    width: 161px;
+    display: flex;
+    align-items: center;
+
+}
+.clientT{
+    width: 95px;
+    display: flex;
+    align-items: center;
+}
+
+.botoesEE{
+    display: flex;
+    justify-content: space-evenly;
+    width: 350px;
+
+}
+
+

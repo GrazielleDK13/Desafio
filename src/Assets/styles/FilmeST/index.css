@@ -1,0 +1,109 @@
+.Nfilme{
+
+    font-size: 20px;
+    margin-left: 9px;
+
+}
+
+.imgF{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    margin-bottom: 9px;
+
+}
+
+
+.flex{
+    
+    width: 1024px;
+    margin: auto;
+}
+
+.tituloCF{
+    font-size: 20px;
+    margin-bottom: 21px;
+}
+
+.ipscFilme{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.IPCfilme{
+
+    width: 400px;
+    height: 58px;
+    padding-left: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    
+}
+.IPCfilme::placeholder{
+    font-family: 'Roboto, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4B2142;
+
+}
+.IPGenero{
+  
+    width: 400px ;
+    height: 58px ;
+    padding-left: 10px;
+    font-family: 'Roboto, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+
+    
+}
+.IPGenero::placeholder{
+    font-family: 'Roboto, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4B2142;
+
+}
+
+
+/* seção 1 */
+
+.listFilmes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-bottom: 99px;
+}
+
+
+
+.tFilmes{
+
+    display: flex;
+    width: 1024px;
+    margin-top: 44px;
+    justify-content: space-between;
+
+}
+
+.filmeN{
+
+    width: 161px;
+    display: flex;
+    align-items: center;
+
+}
+.filmeG{
+    width: 161px;
+    display: flex;
+    align-items: center;
+}
+
+.botoesEE{
+    width: 350px;
+    margin-top: 30px;
+
+}

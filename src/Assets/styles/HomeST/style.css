@@ -1,0 +1,46 @@
+
+.titulo1{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    font-size: 40px;
+
+}
+
+.bloco1{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.IT1centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 1024px;
+}
+
+.bloco2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 40px;
+
+}
+
+.filmes{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.Categorias{
+
+    width: 400px;
+
+}
+

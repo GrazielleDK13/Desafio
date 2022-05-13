@@ -1,0 +1,60 @@
+.modal {
+
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    height: 300px;
+    border-radius: 12px;
+    position: fixed;
+    top: 20%;
+    left: 24%;
+
+}
+
+.itensModal {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+}
+
+.bt1Modal {
+    width: 20px;
+    height: 20px;
+    border: none;
+    border-color: aliceblue;
+}
+
+.inputs_modal {
+    display: flex;
+    flex-direction: column;
+}
+
+.ipModal {
+
+    width: 400px;
+    height: 58px;
+    border: none;
+    border-color: var(--Sinza);
+}
+
+.bt2Modal {
+
+    width: 100px;
+    height: 50px;
+    border: none;
+    background-color: var(--laranja);
+    color: rgb(255, 255, 255);
+    
+}
+
+/* mostrar e oucultar modal*/
+
+.show {
+    display: flex
+}
+
+.hide {
+    display: none;
+}
