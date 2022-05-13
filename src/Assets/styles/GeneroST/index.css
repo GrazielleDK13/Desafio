@@ -65,11 +65,11 @@
 /* modal */
 
 .updateshow{
-
-    background-color: rgb(12, 133, 240);
+    
+    background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 520px;
     height: 300px;
     border-radius: 12px;
     position: fixed;

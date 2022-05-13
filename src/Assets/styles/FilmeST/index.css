@@ -49,15 +49,25 @@
 
 }
 .IPGenero{
-  
-    width: 400px ;
-    height: 58px ;
-    padding-left: 10px;
-    font-family: 'Roboto, Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-style: normal;
+
+
+   
+    width: 400px;
+    height: 62px;
+    border: 1px solid #000000;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(../../Img/select.png);
+    background-repeat: no-repeat, repeat;
+    background-position: right 1.2em top 60%, 0 0;
+    background-size: 0.8em auto, 100%;
+    padding: 10px;
+    color: #4B2142;
     font-weight: 400;
     font-size: 20px;
-    line-height: 23px;
+    line-height: 24px; 
+    font-family: 'Roboto';
 
     
 }

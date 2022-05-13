@@ -41,7 +41,7 @@ export const Generos = () => {
     const AbrirFecharModal = (estadoAtual, genero, idGenero) => {
 
         setupdateID(idGenero);
-        setupdateGenero(genero);
+        // setupdateGenero(genero);
         setUpdateValor(genero);
 
         if (estadoAtual === 'hide') {
@@ -57,7 +57,7 @@ export const Generos = () => {
 
     const [updateValor, setUpdateValor] = useState('');
 
-    const [ setupdateGenero] = useState('');
+    // const [updateGenero, setupdateGenero] = useState(''); //ta faltando updateGenero //erro
 
     // updateGenero
 
@@ -164,7 +164,7 @@ export const Generos = () => {
                             <div className="botoesEE">
 
                                 <button className="BTeditar" onClick={() => AbrirFecharModal(modal, item.genero, item.idGenero)}>Editar</button>
-                                <button className="BTexcluir"onClick={() => Excluir(item.idGenero)}>Excluir</button>
+                                <button className="BTexcluir" onClick={() => Excluir(item.idGenero)}>Excluir</button>
 
                             </div>
 

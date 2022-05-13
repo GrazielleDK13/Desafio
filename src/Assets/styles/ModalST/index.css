@@ -3,7 +3,7 @@
     background-color: aliceblue;
     display: flex;
     flex-direction: column;
-    width: 800px;
+    width: 520px;
     height: 300px;
     border-radius: 12px;
     position: fixed;
@@ -47,6 +47,10 @@
     background-color: var(--laranja);
     color: rgb(255, 255, 255);
     
+}
+
+.bt2Modal:hover{
+    background-color: #a13210;
 }
 
 /* mostrar e oucultar modal*/
